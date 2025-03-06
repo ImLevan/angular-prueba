@@ -1,0 +1,247 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  :host {
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(
+      180deg,
+      var(--orange-red) 0%,
+      var(--vivid-pink) 50%,
+      var(--electric-violet) 100%
+    );
+
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
+      90deg,
+      var(--orange-red) 0%,
+      var(--vivid-pink) 50%,
+      var(--electric-violet) 100%
+    );
+
+    --pill-accent: var(--bright-blue);
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+  main {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+    position: relative;
+    background-color:aliceblue;
+  }
+
+  .content {
+    width: 700px;
+    background-color: #fff;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title { 
+    text-align: center;
+    height: 52px;
+    padding-bottom: 30px;
+  }
+  .title h1 {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .steps { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .step { 
+    background-color: #F2F2F2;
+    width: 482px;
+    display: flex;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    gap: 8px;
+    color: #06005A;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-left: 8px;
+    padding-bottom: 14px;
+  }
+
+  .step-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+  }
+
+  .step-description {
+    text-align: justify;
+  }
+
+  .step-description h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+  }
+
+  .step-description p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    vertical-align: bottom;
+  }
+
+  .button-container{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+  }
+
+  .content-button{
+    width: 326.2629699707031px;
+    height: 90px;
+    top: 661px;
+    left: 493px;
+  }
+
+  .button-container button{
+    width: 326.2629699707031px;
+    height: 61px;
+    top: 661px;
+    left: 493px;
+    gap: 8px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 3px 0px #0000000D;
+    background: #00DB8E;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #06005A;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button-container img{
+    display: flex;
+    overflow: visible;
+    margin-top: -28px;
+    margin-left: 250px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 650px) {
+    .content {
+      flex-direction: column;
+      width: max-content;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    .divider {
+      height: 1px;
+      width: 100%;
+      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      margin-block: 1.5rem;
+    }
+  }
+</style>
+
+<main class="main">
+  <section class="content">
+    <div class="title">
+      <h1>Recomendaciones para los<br>siguientes pasos</h1>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-img">
+          <img src="/734-id-business-card-1-outline 2.png" alt="id-img">
+        </div>
+        <div class="step-description">
+          <h2>Ten a la mano tu documento de identidad</h2>
+          <p>Durante el proceso, te pediremos fotos de tu documento para validar tu identidad. Por favor, súbelo o toma la foto evitando reflejos o luces que no permitan verlo claramente.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-img">
+          <img src="/1376-face-id-outline 2.png" alt="face-id-img">
+        </div>
+        <div class="step-description">
+          <h2>Prueba de vida</h2>
+          <p>Vamos a tomar una foto tuya (selfie) en tiempo real. Asegúrate de que haya buena luz y evita llevar gorra, gafas o cualquier otro objeto que pueda dificultar que se vea bien tu cara.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-img">
+          <img src="/24-approved-checked-outline 4.png" alt="approved-checked">
+        </div>
+        <div class="step-description">
+          <h2>Validación de información</h2>
+          <p>Es clave que siempre des información real y sincera para asegurar el éxito del proceso.</p>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="content-button">
+        <button class="button">Continuar</button>
+        <img src="/Group 12522714.png" alt="right-arrow">
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />
